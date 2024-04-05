@@ -31,6 +31,8 @@ and
 
 https://community.nxp.com/t5/Power-Management/CRC-seed-value-for-MC33GD3100/m-p/1677961
 
+A series of SPI logic analyser captures are now here on the repo. Files are in Saleae Logic 2 format which my be freely downloaded here : https://www.saleae.com/pages/downloads
+
 An Openinverter logic board replacement is currently being designed to allow this drive unit to be used unrestricted.
 
 
