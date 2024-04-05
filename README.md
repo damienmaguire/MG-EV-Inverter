@@ -35,6 +35,10 @@ A series of SPI logic analyser captures are now here on the repo. Files are in S
 
 An Openinverter logic board replacement is currently being designed to allow this drive unit to be used unrestricted.
 
+The external power and signal connector is a Molex 500762-1001 available from Mouser : https://www.mouser.ie/ProductDetail/538-500762-1001
+
+The logic board to power board connector is a ERNI 063210-E available from Mouser : https://www.mouser.ie/ProductDetail/305-063210
+
 
 
 
