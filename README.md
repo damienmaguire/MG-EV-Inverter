@@ -39,6 +39,8 @@ The external power and signal connector is a Molex 500762-1001 available from Mo
 
 The logic board to power board connector is a ERNI 063210-E available from Mouser : https://www.mouser.ie/ProductDetail/305-063210
 
+Gate driver signals are 5V level. One active low fault line for high and low sides.
+
 
 
 
