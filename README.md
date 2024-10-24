@@ -13,11 +13,9 @@ One current sensor per phase. 5V supply, 2.5V at zero current anlog output.
 
 Isolated gate power supplies provided from a common 30VDC primary supply , a pair of 5V at 132KHz and 42% duty signals to a mosfet driver. Transformers are Epcos A213721495C.
 
-HV Voltage sensing is achived using an LM2903 comparator as a VCO fed through a digital isolator (2PI Semi 141E60Q). Signal is 1MHz, 5V at 52% duty with no HV applied.
-Duty cycle drops with increasing HV Voltage.
+HV Voltage sensing is achived using the external ADC channel of the Low3 gate driver and transmitted via spi.
 
-The three IGBT temp sensors are fed into the relevant high side drivers. The analog / pwm output from the low voltage side of the igbt driver does not seem to be connected.
-Presumed at this time that the igbt temp is sent via SPI.
+The three IGBT temp sensors are fed into the relevant high side drivers. Temp is sensed using the external ADC channel of the  three high side gate drivers and transmitted via spi.
 
 The OEM logic board communicates with all 6 gate drive chips via SPI at a clock rate of 1.7MHz. Data is in 16 bit format with an 8 bit crc and sent/received as 24 bit packets.
 Sadly , NXP want an NDA to allow access to the SPI data for this device. As this would then tie me down from sharing the data I will not be going this route. Instead, we'll use reverse engineering and open
@@ -48,6 +46,7 @@ Pins : https://www.mouser.ie/ProductDetail/571-7-1452656-3-CT
 
 Gate driver signals are 5V level. One active low fault line for high and low sides.
 
+V2 Logic board now undergoing testing.
 
 
 
