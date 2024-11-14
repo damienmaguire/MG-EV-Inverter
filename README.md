@@ -44,7 +44,9 @@ The logic board to power board connector is a ERNI 063210-E available from Mouse
 The motor resolver and temp sensor connector is a TE 1897462-2 available from Mouser : https://www.mouser.ie/ProductDetail/571-1897462-2
 Pins : https://www.mouser.ie/ProductDetail/571-7-1452656-3-CT
 
-Gate driver signals are 5V level. One active low fault line for high and low sides.
+Gate driver signals are 5V level. One active low fault / INT line for high and low sides.
+
+HV Connector may be Yonguui Metal Housing Connector-YG998C
 
 V2 Logic board now undergoing testing.
 
