@@ -50,5 +50,7 @@ HV Connector may be Yonguui Metal Housing Connector-YG998C
 
 V2 Logic board now undergoing testing.
 
+Now working in closed loop FOC control with V2 logic board : https://vimeo.com/1032344714
+
 
 
