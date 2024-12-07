@@ -52,5 +52,7 @@ V2 Logic board now undergoing testing.
 
 Now working in closed loop FOC control with V2 logic board : https://vimeo.com/1032344714
 
+Added 3D printable HV connector replacement. Also available on Printables : https://www.printables.com/model/1100211-mg-ev-drive-unit-high-voltage-connector
+
 
 
