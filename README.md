@@ -39,6 +39,9 @@ An Openinverter logic board replacement is currently being designed to allow thi
 
 The external power and signal connector is a Molex 500762-1001 available from Mouser : https://www.mouser.ie/ProductDetail/538-500762-1001
 
+A pre wired 48 way plug to fit this is available from AliExpress : 
+https://www.aliexpress.com/item/1005004818455812.html
+
 The logic board to power board connector is a ERNI 063210-E available from Mouser : https://www.mouser.ie/ProductDetail/305-063210
 
 The motor resolver and temp sensor connector is a TE 1897462-2 available from Mouser : https://www.mouser.ie/ProductDetail/571-1897462-2
